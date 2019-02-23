@@ -1,0 +1,25 @@
+/*input[type="text"],input[type="password"],input[type="email"], textarea {
+outline: none;
+box-shadow:none !important;
+background-color: #fff;*/
+
+/*border:1px solid #ccc !important;*/
+/*}*/
+
+input[type=text],textarea,.form-control,.custom-select,input[type=password],input[type="email"],input[type="date"],input[type=text]:active,input[type=password]:active,input[type="email"]:active,input[type="date"]:active,input[type="date"]:active,textarea:active,input[type="combo box"]:active{
+	background-color: #fff;
+	border: 1px solid #eee;
+}
+
+.card-footer{
+	border: none;
+	background-color: #fff;
+}
+
+input:active, input:focus, input[type=password]:active, input[type=password] input[type="email"]:focus{
+	background-color: #fff !important;
+}
+
+.reg_form input{
+	width: 97%;
+}
