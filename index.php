@@ -1,55 +1,259 @@
 <?php include ('includes/header.php') ?>
-<div class="reg_form" style="background: #159957;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-; height: 100vh;">
-	<br>
 
-<!-- <div class="card container" style="width: 50%;height: 500px;background-color: black;color: white"> -->
-<div class="card shadow-lg container" style="width: 40%;margin-top: 4%">
-	<h1 class="text-center m-3">SignUp!</h1>
 
-	<form action="process/user_signup.proc.php" method="POST" class="container" style="width: 80%;">
-		<div class="row">
-						<div class="form-group col-sm-12 col-md-12 col-lg-12">
-							<input type="text" placeholder="NAME"  name="user_signup_name" class="form-control p-2">
-						</div>
-						<div class="form-group col-lg-12">
-							<input type="text"  name="user_signup_adhaar" placeholder="ADHAAR NUMBER" class="form-control p-2">
-						</div>
-						<div class="form-group col-sm-12 col-md-12 col-lg-12">
-							<input type="text" placeholder="EMAIL" name="user_signup_email" class="form-control p-2">
-						</div>
-						<div class="form-group col-lg-12">
-							<input type="text" placeholder="PHONE" name="user_signup_phone" class="form-control p-2">
-						</div>
-						
-						<div class="form-group col-lg-12">
-							<input type="password" placeholder="PASSWORD" name="user_signup_password" class="form-control p-2">
-						</div>
-						<div class="form-group col-lg-12">
-							<input type="password" placeholder="CONFIRM PASSWORD" class="form-control p-2" name="user_signup_repeat_password">
-						</div>
-						
-						
-						<div class="custom-control custom-checkbox ml-3 mb-3 col-lg-12" >
-                          <input type="checkbox" class="custom-control-input" id="customCheck1" required>
-                          <label class="custom-control-label" for="customCheck1">I Accept terms and conditions</label>
-						</div>
+<section id="showcase">
+
+	<div class="bg-dark pt-5 pb-5 shadow-lg text-center text-light">
+		<div class="d-flex justify-content-center">
+			<img src="govt.png" alt="" style="height: 100px;">	
 		</div>
-		<div class="card-footer d-flex justify-content-center mb-6 mt-6">
-		<button  name="Submit" class="btn btn-primary btn-block shadow mb-3">signup</button>
-			
-		</div>
+		<!-- title -->
+		<h1 class="display-4 text-light mt-4">E-COMPLAINT</h1>
+		<p class="lead mb-3">A KERALA POLICE INITIATIVE</p>
+	</div><br>
 
-	</form>
+	<div class="mt-4 text-center container p-3">
+			<p class="lead text-dark mb-4">A platform to register you complaints and get support from the kerala police department. <br> This application is made with a goal to help people and reduce the social issues.</p><hr style="width: 40%;">	
+	</div>
+
+</section><br>
+
+<section id="missing_persons"><br>
+	<div class="d-flex justify-content-center container">
+		<h2>MISSING PERSONS</h2>
+	</div><hr style="width: 60%;">
 
 
 
-</div>
+			<div id="carouselExampleControls" class="carousel slide container" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
 
-	
-</div>
+			    	     <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+
+			    </div>
+			    <div class="carousel-item">
+			      <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+			    </div>
+			    <div class="carousel-item">
+			     <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+
+
+
+
+</section>
+
+
+
+
+<section id="most_wanted"><br>
+	<div class="d-flex justify-content-center container">
+		<h2>MOST WANTED</h2>
+	</div><hr style="width: 60%;">
+
+
+
+			<div id="carouselExampleControls2" class="carousel slide container" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+
+			    	     <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+
+			    </div>
+			    <div class="carousel-item">
+			      <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+			    </div>
+			    <div class="carousel-item">
+			     <div class="row mt-5 mb-5">
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>
+
+							<div class="container col-lg-4">
+							<div class="card p-1">
+				    			<img src="2.jpg" class="card-img" height="200px;">		
+				    			<div class="card-footer d-flex justify-content-center">
+				    				<p class="lead text-dark">Name</p>
+				    			</div>		
+							</div>
+							</div>   	
+				    	</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+
+
+
+
+</section>
 <?php include ('includes/footer.php') ?>
-
-
