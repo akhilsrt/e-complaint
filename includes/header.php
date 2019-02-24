@@ -24,7 +24,7 @@ session_start();
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <div class="dropdown">
@@ -42,7 +42,7 @@ session_start();
   				<a class="nav-link" data-toggle="dropdown">Register
   				<span class="caret"></span></a>
   				<ul class="dropdown-menu ">
-    				<li><a class="dropdown-item" href="index.php">USER REGISTER</a></li>
+    				<li><a class="dropdown-item" href="user_signup.php">USER REGISTER</a></li>
     				<li><a class="dropdown-item" href="policesignup.php">POLICE REGISTER</a></li>
   				</ul>
 			</div>
